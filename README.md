@@ -26,7 +26,7 @@
 > Alias: **/pja**
 
 ### Subcommands:
-- /nightdart reload
+- /pja reload
     - Permission: `pja.reload`
 
 
