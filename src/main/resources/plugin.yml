@@ -1,0 +1,6 @@
+name: BedrockJoinAnnouncer
+version: '1.0.0'
+main: zxc.mrdrag0nxyt.bedrockJoinAnnouncer.BedrockJoinAnnouncer
+api-version: '1.18'
+authors: [ MrDrag0nXYT (drakoshaslv) ]
+website: https://drakoshaslv.ru
