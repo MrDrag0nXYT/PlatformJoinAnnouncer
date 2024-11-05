@@ -1,0 +1,38 @@
+#
+#     ██████╗░░░░░░██╗░█████╗░███╗░░██╗███╗░░██╗░█████╗░██╗░░░██╗███╗░░██╗░█████╗░███████╗██████╗░
+#     ██╔══██╗░░░░░██║██╔══██╗████╗░██║████╗░██║██╔══██╗██║░░░██║████╗░██║██╔══██╗██╔════╝██╔══██╗
+#     ██████╔╝░░░░░██║███████║██╔██╗██║██╔██╗██║██║░░██║██║░░░██║██╔██╗██║██║░░╚═╝█████╗░░██████╔╝
+#     ██╔═══╝░██╗░░██║██╔══██║██║╚████║██║╚████║██║░░██║██║░░░██║██║╚████║██║░░██╗██╔══╝░░██╔══██╗
+#     ██║░░░░░╚█████╔╝██║░░██║██║░╚███║██║░╚███║╚█████╔╝╚██████╔╝██║░╚███║╚█████╔╝███████╗██║░░██║
+#     ╚═╝░░░░░░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚══╝░╚════╝░░╚═════╝░╚═╝░░╚══╝░╚════╝░╚══════╝╚═╝░░╚═╝
+#
+#                   V 1.0.0   |   Author: MrDrag0nXYT (https://drakoshaslv.ru)
+#                Source code: https://github.com/MrDrag0nXYT/PlatformJoinAnnouncer
+#
+
+# Enable BStats metrics? You can see it here: https://bstats.org/plugin/bukkit/PlatformJoinAnnouncer/23816
+enable-metrics: true
+
+join-messages:
+  send-after: 3 # seconds
+
+  bedrock:
+    enabled: true
+    strings:
+      - " "
+      - "<#fcfcfc>Message for <#a880ff>Bedrock Edition</#a880ff> player"
+      - " "
+  java:
+    enabled: true
+    strings:
+      - " "
+      - "<#fcfcfc>Message for <#a880ff>Java Edition</#a880ff> player"
+      - " "
+
+messages:
+  usage:
+    - "<#fcfcfc>Usage: <#a880ff>/pja reload</#a880ff>"
+  no-permission:
+    - "<#dc143c>You haven`t permission to use this command!"
+  reloaded:
+    - "<#00ff7f>Plugin successfully reloaded!</#00ff7f>"

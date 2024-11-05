@@ -1,1 +1,1 @@
-rootProject.name = "BedrockJoinAnnouncer"
+rootProject.name = "PlatfornJoinAnnouncer"

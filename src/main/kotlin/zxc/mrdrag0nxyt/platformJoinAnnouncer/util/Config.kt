@@ -1,11 +1,11 @@
-package zxc.mrdrag0nxyt.bedrockJoinAnnouncer.util
+package zxc.mrdrag0nxyt.platformJoinAnnouncer.util
 
 import org.bukkit.configuration.file.YamlConfiguration
-import zxc.mrdrag0nxyt.bedrockJoinAnnouncer.BedrockJoinAnnouncer
+import zxc.mrdrag0nxyt.platformJoinAnnouncer.PlatformJoinAnnouncer
 import org.bukkit.configuration.file.FileConfiguration
 import java.io.File
 
-class Config(private val plugin: BedrockJoinAnnouncer) {
+class Config(private val plugin: PlatformJoinAnnouncer) {
 
     private lateinit var yamlConfiguration: YamlConfiguration
     private val file: File = File(plugin.dataFolder, "config.yml")

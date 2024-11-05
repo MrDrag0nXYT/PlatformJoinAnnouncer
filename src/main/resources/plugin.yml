@@ -1,6 +1,16 @@
-name: BedrockJoinAnnouncer
+name: PlatformJoinAnnouncer
 version: '1.0.0'
-main: zxc.mrdrag0nxyt.bedrockJoinAnnouncer.BedrockJoinAnnouncer
+main: zxc.mrdrag0nxyt.platformJoinAnnouncer.PlatformJoinAnnouncer
 api-version: '1.18'
 authors: [ MrDrag0nXYT (drakoshaslv) ]
 website: https://drakoshaslv.ru
+depend: [floodgate]
+
+commands:
+  platformjoinannouncer:
+    aliases:
+      - pja
+
+permissions:
+  pja.reload:
+    default: op
